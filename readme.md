@@ -10,7 +10,17 @@
 Regenerate .GITATTRIBUTES
 
 ```powershell
-.\generate-git-attributes.ps1
+# use after adding new resource files or new large files
+.\scripts\generate-git-attributes.ps1
+```
+
+<br/>
+
+Pull Resource Files (from cdn.kongor.net)
+
+```powershell
+# use after cloning the repository, to hydrate the distributions with resource files from object storage
+.\scripts\pull-resource-files.ps1
 ```
 
 <br/>
