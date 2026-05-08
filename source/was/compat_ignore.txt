@@ -1,0 +1,12 @@
+*.exe
+*.dll
+*.dlu
+*-x86*
+*.so
+*.sh
+HoN*
+*.dylib
+:/Contents/*
+:/manifest.xml
+:/ca-bundle.crt
+:/Awesomium/*
