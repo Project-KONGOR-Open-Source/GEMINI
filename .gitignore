@@ -1,0 +1,5 @@
+# HON Resource Files (get from cdn.kongor.net)
+*.s2z
+
+# macOS Custom Folder Attributes
+.DS_Store
