@@ -48,3 +48,15 @@ git sync
 ```
 
 <br/>
+
+Mirror Tracked Files To R2 (Automatic, On Push)
+
+```powershell
+# tracked files under "source/" are automatically mirrored to the "project-kongor" R2 bucket by a GitHub Actions workflow on every push to "main"
+# the workflow uses "rclone sync" with credentials from repository secrets (R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_ENDPOINT)
+# resource files (".s2z") are excluded from the mirror; they remain under control of the separate upload pipeline
+# to re-trigger manually (after fixing the workflow or for an out-of-band re-sync), use the "Run workflow" button in the repository's Actions tab
+git push
+```
+
+<br/>
