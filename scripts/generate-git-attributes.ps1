@@ -2,9 +2,10 @@
 .SYNOPSIS
     Regenerates .gitattributes with one Git LFS rule per file at or above the threshold.
     Default threshold is 100 MB (GitHub's hard push limit).
+    Files whose extension is in $AlwaysLFSExtensions are also LFS-tracked, regardless of size.
 
 .DESCRIPTION
-    Walks the repository, finds large files, writes a sorted .gitattributes that LFS-tracks each by its repository-relative path.
+    Walks the repository, finds matching files, writes a sorted .gitattributes that LFS-tracks each by its repository-relative path.
     Make sure to run before `git add` so the files actually go through the LFS filter on stage.
     The .gitattributes file is overwritten in full on every run.
 
@@ -14,14 +15,19 @@
 .PARAMETER FileSizeThreshold
     File size threshold. Default: 100MB.
 
+.PARAMETER AlwaysLFSExtensions
+    Extensions (with or without leading dot) to LFS-track regardless of size. Default: '.s2z'.
+
 .EXAMPLE
     .\generate-git-attributes.ps1
     .\generate-git-attributes.ps1 -FileSizeThreshold 50MB
+    .\generate-git-attributes.ps1 -AlwaysLFSExtensions '.s2z','.dll'
 #>
 [CmdletBinding()]
 param(
-    [string] $RepositoryRoot = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '..')).ProviderPath,
-    [long]   $FileSizeThreshold = 100MB
+    [string]   $RepositoryRoot      = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '..')).ProviderPath,
+    [long]     $FileSizeThreshold   = 100MB,
+    [string[]] $AlwaysLFSExtensions = @('.s2z')
 )
 
 $ErrorActionPreference = 'Stop'
@@ -29,8 +35,15 @@ $ErrorActionPreference = 'Stop'
 $attrFile = Join-Path $RepositoryRoot '.gitattributes'
 $sep      = [IO.Path]::DirectorySeparatorChar
 
+$alwaysLFS = $AlwaysLFSExtensions |
+    ForEach-Object { if ($_.StartsWith('.')) { $_ } else { '.' + $_ } } |
+    Sort-Object -Unique
+
 $patterns = Get-ChildItem -LiteralPath $RepositoryRoot -File -Recurse -Force -ErrorAction SilentlyContinue |
-    Where-Object { $_.Length -ge $FileSizeThreshold -and ($_.FullName.Split($sep) -notcontains '.git') } |
+    Where-Object {
+        ($_.FullName.Split($sep) -notcontains '.git') -and
+        ($_.Length -ge $FileSizeThreshold -or $_.Extension -cin $alwaysLFS)
+    } |
     ForEach-Object {
         $rel = $_.FullName.Substring($RepositoryRoot.Length).TrimStart($sep) -replace '\\', '/'
         if ($rel -match '\s') { '"{0}"' -f $rel } else { $rel }
