@@ -6,6 +6,11 @@ on:
     paths:
       - 'source/**'
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Dry Run (Preview Only, No Uploads Or Deletes)
+        type: boolean
+        default: false
 
 concurrency:
   group: r2-mirror
@@ -32,4 +37,5 @@ jobs:
             --filter "- *.s2z" \
             --checksum \
             --transfers 8 \
-            --verbose
+            --verbose \
+            ${{ inputs.dry_run && '--dry-run' || '' }}
