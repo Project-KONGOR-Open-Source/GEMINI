@@ -1,0 +1,17 @@
+[Unit]
+Description=Heroes of Newerth game servers and manager
+Requires=network.service
+
+[Service]
+Type=forking
+ExecStartPre=/bin/mkdir -p /var/run/hon
+ExecStartPre=/bin/chown hon:hon /var/run/hon
+PermissionsStartOnly=true
+ExecStart=/opt/hon/app/hon-x86_64-server -service -manager
+PIDFile=/var/run/hon/manager.pid
+Restart=on-abort
+User=hon
+Group=hon
+
+[Install]
+WantedBy=multi-user.target

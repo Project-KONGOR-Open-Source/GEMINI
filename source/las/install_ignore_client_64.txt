@@ -1,0 +1,8 @@
+game\maps\working\*
+game\maps\botTest.s2z
+game\maps\caldavarcliffs.s2z
+game\maps\caldavarv3.s2z
+game\maps\caldavarTest.s2z
+game\maps\test.s2z
+game\maps\test_simple.s2z
+game\stringtables\entities_test_en.str

@@ -1,0 +1,61 @@
+#!/bin/bash
+
+prompt()
+{
+    CFG="$1"
+    PROMPT="$2"
+    CVAR="$3"
+    DEFAULT="$4"
+    read -p "$PROMPT ($CVAR): [$DEFAULT] " RESULT
+    if [ -z "$RESULT" ]; then
+    	RESULT="$DEFAULT"
+    fi
+    echo SetSave $CVAR \"$RESULT\" >> $CFG
+}
+
+guess_ip()
+{
+    # Find default route network device
+    DEV="`ip route | grep default | awk '{print $5;}'`"
+    if [ -n "$DEV" ]; then
+        # Determine that devices IPv4 address
+        ADDR="`ip -4 addr show dev $DEV | grep inet | awk '{print $2;}'`"
+        if [ -n "$ADDR" ]; then
+            echo ${ADDR:0:-3}
+            exit
+        fi
+    fi
+
+    # Fallback if we can't find a more reliable guess
+    hostname -i
+}
+
+# If we are an interactive shell, run configuration process
+STARTSERVER=0
+CFG=/opt/hon/config/game/startup.cfg
+read -p "Would you like to configure honserver now? [Y/n] " RESULT
+RESULT=${RESULT:0:1}
+if [ "${RESULT,,}" != "n" ]; then
+    prompt "$CFG" "Master server login" man_masterLogin
+    prompt "$CFG" "Master server password" man_masterPassword
+    prompt "$CFG" "Number of game servers to automatically start per-CPU" man_autoServersPerCPU 1
+    prompt "$CFG" "Maximum number of game servers" man_maxServers `nproc`
+    prompt "$CFG" "Number of slave accounts" man_numSlaveAccounts 24
+    prompt "$CFG" "Manager TCP port" man_port 1135
+    prompt "$CFG" "Region" svr_location TST
+    prompt "$CFG" "Server IP address" svr_ip "`guess_ip`"
+    prompt "$CFG" "Server name" svr_name
+
+    read -p "Start server now? [Y/n] " RESULT
+    RESULT=${RESULT:0:1}
+    if [ "${RESULT,,}" != "n" ]; then
+        STARTSERVER=1
+    fi
+else
+    echo "No $CFG generated.  See $CFG.example for default settings."
+fi
+
+if [ $STARTSERVER -ne 0 ]; then
+  systemctl start honserver
+fi
+

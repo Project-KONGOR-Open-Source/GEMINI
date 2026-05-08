@@ -1,0 +1,86 @@
+#!/usr/bin/python
+
+from __future__ import print_function
+import os, sys, argparse, time, psutil, subprocess
+
+class HconHelper:
+	def get_all_servers(self):
+		for entry in os.listdir("/var/run/hon"):
+			if entry.endswith(".sock"):
+				yield entry[:-5]
+
+	def wait(self, proc, timeout=10):
+		start = time.time()
+		while proc.poll() is None and time.time() - start < timeout:
+			time.sleep(1)
+
+		return proc.returncode
+
+	def waitps(self, proc, timeout=10):
+		start = time.time()
+		while proc.is_running() is None and time.time() - start < timeout:
+			time.sleep(1)
+
+	def get_server_proc(self, server):
+		for proc in psutil.process_iter():
+			try:
+				for sock in proc.get_connections("unix"):
+					if sock.laddr.startswith("/var/run/hon/") and sock.laddr.endswith(".sock"):
+						if sock.laddr[13:-5] == server:
+							return proc
+			except psutil.NoSuchProcess:
+				continue
+			except psutil.AccessDenied:
+				continue
+
+	def kill(self, server):
+		proc = self.get_server_proc(server)
+		if proc is None:
+			print("No process associated with {} found.  Try 'hcon -w' to clean up dead server sockets.".format(server))
+			return False
+
+		# Step 1, issue a quit command and wait for termination
+		print("Attempting to issue quit console command to server...  ", end="")
+		sys.stdout.flush()
+		hcon = subprocess.Popen(["sleep", "30"]) #["hcon", server, "-c", "quit"])
+		returncode = self.wait(hcon)
+		# Kill it, in case a unresponsive server causes hcon to hang.
+		if returncode is None:
+			print("failed.")
+			hcon.kill()
+		else:
+			print("OK.")
+
+		if proc.is_running():
+			# Step 2, send SIGTERM to request termination
+			print("Sending SIGTERM to server process {}...  ".format(proc.pid), end="")
+			sys.stdout.flush()
+			proc.terminate()
+			self.waitps(proc)
+
+			if proc.is_running():
+				# Step 3, the gloves come off.  Send SIGKILL to force termination.
+				print("ignored.\nSending SIGKILL to server process {}.".format(proc.pid))
+				proc.kill()
+			else:
+				print("OK.")
+
+		return True
+
+	def run(self):
+		parser = argparse.ArgumentParser(description="Shows what HoN versions are live")
+		parser.add_argument("server", help="Server to terminate, or ALL to terminate all servers.")
+		args = parser.parse_args()
+
+		if args.server == "ALL":
+			ok = True
+			for server in self.get_all_servers():
+				ok &= self.kill(server)
+		else:
+			ok = self.kill(args.server)
+
+		if not ok:
+			sys.exit(1)
+
+if __name__ == "__main__":
+	HconHelper().run()

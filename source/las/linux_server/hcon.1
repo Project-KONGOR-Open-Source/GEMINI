@@ -1,0 +1,37 @@
+.\" Process this file with
+.\" groff -man -Tascii hcon.1
+.\"
+.TH HCON 1 "FEBRUARY 2015" Linux "User Manuals"
+.SH NAME
+hcon \- Heroes of Newerth Server Console
+.SH SYNOPSIS
+.B hcon -l|--list
+.br
+.B hcon -w|--wipe
+.br
+.B hcon -c|--command "<cmd>"
+.br
+.B hcon -h|--help
+.br
+.B hcon <server>
+.br
+.SH DESCRIPTION
+.B hcon
+provides access to the server consoles of
+background HoN server processes.
+.SH OPTIONS
+.IP "-l | --list"
+List available servers.
+.IP "-w | --wipe"
+Wipe dead server socket files.
+.IP "<server> -c | --command \"<cmd>\""
+Send a single command to the given server.  Does not display response.
+The exit code reflects success of communicating with the server, not
+the success of the server command.
+.IP "-h | --help"
+Print option help.
+.IP "<server>"
+Connect to the given server and provide an interactive console.
+.SH AUTHOR
+Michael Dale Long <m.long@honteam.com>
+
