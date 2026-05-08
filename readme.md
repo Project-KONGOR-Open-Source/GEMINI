@@ -20,20 +20,31 @@ Pull Resource Files Manually (from cdn.kongor.net)
 
 ```powershell
 # use this to manually hydrate the distributions with resource files from object storage
-# alternatively, use "install-git-hooks.ps1" for hooks which do this automatically on pull and checkout
+# alternatively, use "install-git-aliases.ps1" to set up "git sync" which does this together with "git pull"
 # this script needs to be executed every time resource files need to be pulled
 .\scripts\pull-resource-files.ps1
 ```
 
 <br/>
 
-Pull Resource Files Automatically (from cdn.kongor.net)
+Install The `git sync` Alias
 
 ```powershell
-# use this to install hooks which automatically hydrate the distributions with resource files from object storage on pull and checkout
-# alternatively, use "pull-resource-files.ps1" if you prefer to do this manually
-# this script needs to be executed only once per clone, for the hooks to be active in the repository
-.\scripts\install-git-hooks.ps1
+# use this to install the "git sync" alias which pulls code and resource files in one step
+# alternatively, use "pull-resource-files.ps1" if you prefer to pull resources manually
+# this script needs to be executed only once per clone, for the alias to be active in the repository
+.\scripts\install-git-aliases.ps1
+```
+
+<br/>
+
+Pull Code And Resource Files Together (with `git sync`)
+
+```powershell
+# use this instead of "git pull" to pull both code and resource files in one step
+# requires "install-git-aliases.ps1" to have been run once first
+# the regular "git pull" still works for code-only updates
+git sync
 ```
 
 <br/>
