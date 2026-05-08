@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       dry_run:
-        description: Dry Run (Preview Only, No Uploads Or Deletes)
+        description: Dry Run (Preview Only, No Changes)
         type: boolean
         default: false
 
