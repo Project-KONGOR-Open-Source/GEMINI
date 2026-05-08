@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# auto-syncs s2z resource files from cdn.kongor.net after `git pull` / `git merge`
+# set SKIP_RESOURCE_FILES_PULL=1 to skip
+set -e
+
+if [ "${SKIP_RESOURCE_FILES_PULL:-0}" = "1" ]; then exit 0; fi
+
+repo_root="$(git rev-parse --show-toplevel)"
+script="$repo_root/scripts/pull-resource-files.ps1"
+[ -f "$script" ] || exit 0
+
+if command -v pwsh >/dev/null 2>&1; then
+    pwsh -NoProfile -File "$script"
+elif command -v powershell.exe >/dev/null 2>&1; then
+    powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$script"
+else
+    echo "post-merge: neither pwsh nor powershell.exe found, skipping pull-resource-files.ps1" >&2
+fi
