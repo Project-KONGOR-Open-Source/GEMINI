@@ -4,7 +4,12 @@
     "excludeFromSource": [
         "manifest.json"
     ],
-    "excludeFromTarget": [],
+    "excludeFromTarget": [
+        "WILLOWMAKER",
+        "WILLOWMAKER.log",
+        "libHarfBuzzSharp.so",
+        "libSkiaSharp.so"
+    ],
     "files": {
         "Awesomium/AwesomiumProcess-x86": {
             "size": 11104,

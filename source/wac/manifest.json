@@ -4,7 +4,13 @@
     "excludeFromSource": [
         "manifest.json"
     ],
-    "excludeFromTarget": [],
+    "excludeFromTarget": [
+        "WILLOWMAKER.exe",
+        "WILLOWMAKER.log",
+        "av_libglesv2.dll",
+        "libHarfBuzzSharp.dll",
+        "libSkiaSharp.dll"
+    ],
     "files": {
         "avcodec-x64-58.dll": {
             "size": 15553563,

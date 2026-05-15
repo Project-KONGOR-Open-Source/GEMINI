@@ -4,7 +4,13 @@
     "excludeFromSource": [
         "manifest.json"
     ],
-    "excludeFromTarget": [],
+    "excludeFromTarget": [
+        "WILLOWMAKER",
+        "WILLOWMAKER.log",
+        "libAvaloniaNative.dylib",
+        "libHarfBuzzSharp.dylib",
+        "libSkiaSharp.dylib"
+    ],
     "files": {
         "Contents/Frameworks/Awesomium.framework/Versions/A/Awesomium": {
             "size": 41143868,
