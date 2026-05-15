@@ -473,8 +473,8 @@
             "hash": "a4c8075842c206bfad8b96327428cea2ea87a14dc76501d36f78b168d04fef1d"
         },
         "libraries.txt": {
-            "size": 7867,
-            "hash": "bef53623fd4ef4c3ba181d2a9956e53a9a4770093c1a301652c52bce0df25105"
+            "size": 7687,
+            "hash": "24674ec7083c5767676811e59d9a8256700c0cd01ec9f632968663975ed64a26"
         },
         "libs-x86/libawesomium-1-7.so.5": {
             "size": 63159344,
