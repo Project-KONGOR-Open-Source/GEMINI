@@ -1,0 +1,698 @@
+{
+    "version": "4.10.1.1",
+    "hashAlgorithm": "SHA-256",
+    "excludeFromSource": [
+        "manifest.json"
+    ],
+    "excludeFromTarget": [],
+    "files": {
+        "awesomium/awesomiumprocess-x86": {
+            "size": 11104,
+            "hash": "8c091861bc6899267ee635f54e6bf71398e87e8302757b47e76366d1a7573d31"
+        },
+        "awesomium/awesomiumprocess-x86_64": {
+            "size": 12152,
+            "hash": "a3f100298c8c364e9aa104b7f6447d5c73481e72b9499d2e35f99302ad6bd93b"
+        },
+        "awesomium/chrome.pak": {
+            "size": 1418790,
+            "hash": "343e3570560ca90c4f929420ef913e53d74287b2aaf483078f41b7d25b26247f"
+        },
+        "awesomium/locales/am.pak": {
+            "size": 105046,
+            "hash": "c880e9cb1ce5d24bda486ac14c0c00d9c6f910894b0602e27eafb78ce513f73e"
+        },
+        "awesomium/locales/ar.pak": {
+            "size": 121802,
+            "hash": "6f547622a5e3e680d070e74de98e4e29fcb9487dda9ba48842cba5baf9eb3a5c"
+        },
+        "awesomium/locales/bg.pak": {
+            "size": 137116,
+            "hash": "969347effda9f6a4ac98f54d5b00738e3ca8ea7a8182da913debdcb4c45d6830"
+        },
+        "awesomium/locales/bn.pak": {
+            "size": 126408,
+            "hash": "9c8edfead5ebc6cb693b4c41dc071d7156cd0d1a8c9283c682dc3944f9b668fe"
+        },
+        "awesomium/locales/ca.pak": {
+            "size": 136044,
+            "hash": "cf747da96c67777c41a6a4822b3c09c0c5cad9dca30e36d33cbc97fcc8fbc593"
+        },
+        "awesomium/locales/cs.pak": {
+            "size": 129266,
+            "hash": "72006d573f73958bebbb3008239f48db39f3bf42e86c45d98c0f6e76fbc2c23d"
+        },
+        "awesomium/locales/da.pak": {
+            "size": 127240,
+            "hash": "44ebd32d94f2e7254f1bba7f4d4400ff124bc4708e09a6f110a782dbcb2b1689"
+        },
+        "awesomium/locales/de.pak": {
+            "size": 135852,
+            "hash": "1d23879621b1209887b0e7aa594b36ae2e4e232125716a1b299ea15ce56e9d80"
+        },
+        "awesomium/locales/el.pak": {
+            "size": 143558,
+            "hash": "e29f860a71c784f1067e44da7ac31e6c927a1260607cf30cca2c222b4356f60b"
+        },
+        "awesomium/locales/en-gb.pak": {
+            "size": 121448,
+            "hash": "6f0a7d5cd8b5bb8fa839d6507add00650ef7d9c8e631b60ed997ba838193980e"
+        },
+        "awesomium/locales/en-us.pak": {
+            "size": 121000,
+            "hash": "2397462890217c9264fdd1879856453409d532eca3ccb1602c156a803d8bcc8b"
+        },
+        "awesomium/locales/es-419.pak": {
+            "size": 135796,
+            "hash": "b2036db347badbd4c16a3d09eb27987e014604d913ef5b94b21452f899122a18"
+        },
+        "awesomium/locales/es.pak": {
+            "size": 135974,
+            "hash": "e01fd4c3ea75baff6a7d9552382ace59b2bca305a1d8e7590d95e2303a12e9ee"
+        },
+        "awesomium/locales/et.pak": {
+            "size": 124630,
+            "hash": "2608b493dea98f233192ffefce5c7f9c71ecf31e612836e088ba08a05de0c84a"
+        },
+        "awesomium/locales/fi.pak": {
+            "size": 127124,
+            "hash": "f901c61400e0d4304110ffb5d9e846c81ec9e721a1cc9bd1a7ec7369fe2134b3"
+        },
+        "awesomium/locales/fil.pak": {
+            "size": 139140,
+            "hash": "a364fb5aaef8652915b00b8cad00a3718df569b2959882555c6a0ea09e060f72"
+        },
+        "awesomium/locales/fr.pak": {
+            "size": 138824,
+            "hash": "4ef8189737b2b6d28d9a749f3783430a0d93500acc8561d74c5db429ce8225be"
+        },
+        "awesomium/locales/gu.pak": {
+            "size": 124760,
+            "hash": "2405ac717c2faff9d6dca136a112ce01f9c345a7f95f5c0d1977f48f3b865c95"
+        },
+        "awesomium/locales/he.pak": {
+            "size": 109898,
+            "hash": "2d2de5b26b9898281e1f9533d5e7258d7f22591fcd144da83fb2bd15b7ad0963"
+        },
+        "awesomium/locales/hi.pak": {
+            "size": 127446,
+            "hash": "02a4e11760cf08322a80632a659d26f14f7bd8e667a25b5b1b4ea3b8e8aa40ba"
+        },
+        "awesomium/locales/hr.pak": {
+            "size": 129118,
+            "hash": "f1cff697528f644b424410f054b85067c131526f9b021794c7bf7d3809a50b54"
+        },
+        "awesomium/locales/hu.pak": {
+            "size": 133974,
+            "hash": "5bb9c2b6320b8eb554e0b85dc5d80105664cc423cd62314c9c8817365c18fa35"
+        },
+        "awesomium/locales/id.pak": {
+            "size": 125342,
+            "hash": "42545388a9fa4819d29486fae309d97d2c59134ee8ba891806705574028786a9"
+        },
+        "awesomium/locales/it.pak": {
+            "size": 133122,
+            "hash": "6102a46f6f3836eed949492c1ea46ffb56731cc3305ede2c73fc1d9c24a77bf7"
+        },
+        "awesomium/locales/ja.pak": {
+            "size": 94708,
+            "hash": "0acda2026a8f67ba75171eb1d92f4094d7070c098753c46799c50158bc441c9d"
+        },
+        "awesomium/locales/kn.pak": {
+            "size": 132618,
+            "hash": "ba2102169daae089eea9307f4a34b90dcf812276e5ebf130947d61012add2820"
+        },
+        "awesomium/locales/ko.pak": {
+            "size": 93284,
+            "hash": "0643157e18689fa1f4e557ab87f2acfc3b009e7ed601a4af8fc2ffd6a639e6f6"
+        },
+        "awesomium/locales/lt.pak": {
+            "size": 130162,
+            "hash": "f5b63d134ef9585a5b3c329d49d9824439a37ebe90fa0e1e3a671771b9a86927"
+        },
+        "awesomium/locales/lv.pak": {
+            "size": 128758,
+            "hash": "42b2a1dbfd6c47ddb954b9f8e5da7cd12998c8cb324dda60ba920ecab1a2e8c9"
+        },
+        "awesomium/locales/ml.pak": {
+            "size": 147056,
+            "hash": "4c2a21aa1540969d18e4f9b69958a40cf498061d6c0697ff533e82fa016bc9c3"
+        },
+        "awesomium/locales/mr.pak": {
+            "size": 124704,
+            "hash": "2d1058456476a4c8d5f849d129189c522000f188593f8405ccd750c5212918fd"
+        },
+        "awesomium/locales/nb.pak": {
+            "size": 125906,
+            "hash": "6cbad017c93e6e0e74b6e80ddf465b0a752adf3e013ab4c0ddb621472c8a5a2c"
+        },
+        "awesomium/locales/nl.pak": {
+            "size": 132430,
+            "hash": "8d249f9881c31096cc122d2a332e29bfeed7982c7d3db82307508cde33c5dfcb"
+        },
+        "awesomium/locales/or.pak": {
+            "size": 130290,
+            "hash": "941d33225220076b5422119f9c6e7cbb3daf12ef481f2493e8827e4584a80705"
+        },
+        "awesomium/locales/pl.pak": {
+            "size": 132462,
+            "hash": "c55dfb7c0b0c82800d2d3fbbf1527634273be35bd179441ee6c17ec43ad80aee"
+        },
+        "awesomium/locales/pt-br.pak": {
+            "size": 130968,
+            "hash": "3eacb084c3a23c55dff6f32cc80aa75dc6a1380a01b5f2f9803357d986fd597a"
+        },
+        "awesomium/locales/pt-pt.pak": {
+            "size": 133926,
+            "hash": "298095b175991e41f7c9953fea70a9ebe6086d634362e57bbf228e43f69ca3b1"
+        },
+        "awesomium/locales/ro.pak": {
+            "size": 136322,
+            "hash": "84880199152efe9d27ff40854dcbb2d9449e024a7c4441204cc252da22878bfa"
+        },
+        "awesomium/locales/ru.pak": {
+            "size": 130546,
+            "hash": "43eae255d902c1d11a856f8c17b33f345524921f135fb7a49eb808ae0225b163"
+        },
+        "awesomium/locales/sk.pak": {
+            "size": 132962,
+            "hash": "47f4a0bf1b8cadb717a5c059ee2c3d95a2eba136198ccf32aaf00290e755b592"
+        },
+        "awesomium/locales/sl.pak": {
+            "size": 127794,
+            "hash": "3d8cfd5ee7c394cb52a289b2d742d184506d29fbb98d04e7f80b1760700f74a2"
+        },
+        "awesomium/locales/sr.pak": {
+            "size": 129874,
+            "hash": "189decc8a98d00792a066215fad8652a8d5a45ad428d5012fedc25e6226a00b8"
+        },
+        "awesomium/locales/sv.pak": {
+            "size": 124976,
+            "hash": "87beaf1b89605e9cfdb8545a0eab80480539f30b26655e55e8069fdc625855b5"
+        },
+        "awesomium/locales/sw.pak": {
+            "size": 127526,
+            "hash": "88587984713b0b993a9ab75a47149efe816ba79a02804c8aabdb540b37786526"
+        },
+        "awesomium/locales/ta.pak": {
+            "size": 137732,
+            "hash": "53399fa53fb3d6196116b9c97fbcbe382ea917196be99446702de306ca5fd55f"
+        },
+        "awesomium/locales/te.pak": {
+            "size": 132174,
+            "hash": "7d840ce9173895c8561c045891475cb23ae2189471f8972c6f5b10a01509e462"
+        },
+        "awesomium/locales/th.pak": {
+            "size": 120884,
+            "hash": "6d2a8a102635727409c06ead2eafad42d5067157989f52ac9f168d855b7d71cb"
+        },
+        "awesomium/locales/tr.pak": {
+            "size": 128010,
+            "hash": "11a521e1031c04780a806475e40028e26fa06a5bf1187a8e6367d13b5dc0f8d3"
+        },
+        "awesomium/locales/uk.pak": {
+            "size": 130592,
+            "hash": "dcdcf8873a2ad259723a0a0a94b22482cd2915df45c521fb1a270308a9484ba2"
+        },
+        "awesomium/locales/vi.pak": {
+            "size": 126168,
+            "hash": "442d51aa08f6ee59daa3998440a56c4529e969c981b849e5943ec04c540f65f1"
+        },
+        "awesomium/locales/zh-cn.pak": {
+            "size": 82880,
+            "hash": "6a3d4a61eb73f3a8200245e0a6ea45d2b5e6986388e901e2ae858851b53425dd"
+        },
+        "awesomium/locales/zh-tw.pak": {
+            "size": 83216,
+            "hash": "6e8f84189c967221ec012297a617d74f03ae5905c39b212e750569731caf35d9"
+        },
+        "base/resources0.s2z": {
+            "size": 43017,
+            "hash": "a6f608e75406561bdec92291dcd1f3cde9e4ec796d1bb1dbfc9d72192a518e67"
+        },
+        "ca-bundle.crt": {
+            "size": 213139,
+            "hash": "3f06deb3fe142a3e281bde426b2c9c6ff4aba1baf6d3f31ed74dafea153a65a8"
+        },
+        "change_log.txt": {
+            "size": 16969,
+            "hash": "4c5c8e88dc8b7958b781fceab1ec51e27f7621de50b9d63fa68d7dee45589542"
+        },
+        "change_log_color.txt": {
+            "size": 18555,
+            "hash": "249ccfe0c3f4c9daf1c0544f95d44c48ba08a5e91141980612560afd57754e94"
+        },
+        "change_log_color_history.txt": {
+            "size": 3521315,
+            "hash": "ce047b199100cc53e36623d9052cc001fe8606d3f1ee17e78b8d0ac2746aabc4"
+        },
+        "change_log_header.txt": {
+            "size": 196,
+            "hash": "7e19433819f5ab0ab6648bbe6311867cbc1555962cc663ac76b4d478a4e43d9f"
+        },
+        "change_log_header_garena.txt": {
+            "size": 174,
+            "hash": "ef4430f8993862f476e25bd7c96f46af05f426dd797418a0ba74b3b8e0f01417"
+        },
+        "change_log_history.txt": {
+            "size": 3346199,
+            "hash": "06af2d6608ace2998f7af52bbe999fcd8ed6363ae5611e2fafe3940f96061126"
+        },
+        "compat_ignore.txt": {
+            "size": 106,
+            "hash": "cd04820dd45a0cd98cebbcf3bb8b015bb1f992dadfc75aacfc4ef390139a9cb2"
+        },
+        "editor.sh": {
+            "size": 482,
+            "hash": "7afd1a62275d9d65326b28c1515ce2aa6f02ce702a09052bc72cfab27b774fe9"
+        },
+        "editor/resources0.s2z": {
+            "size": 25001,
+            "hash": "33c8072d0a284065ac10ba923bb7ddde1ee06094dc68637199eac52534891992"
+        },
+        "f2p_letter.txt": {
+            "size": 1432,
+            "hash": "7f3a9f7f9b8bfeffe0e2ccf46ad200fbda670ec33bb550f827dcf81bd5970e91"
+        },
+        "game/game-x86-server.so": {
+            "size": 2146360,
+            "hash": "22eefc74d52d45399dfd62f09fd0ec8b42ad0de8f2e05dd282808163865ce64d"
+        },
+        "game/game-x86.so": {
+            "size": 1880044,
+            "hash": "6d9e3b464dec09a5960da31043b20594f5f6bc7b998a73ed7f9d51b110b34bd5"
+        },
+        "game/game-x86_64-server.so": {
+            "size": 2121008,
+            "hash": "7dcd86e4a850c60b46db203c4c88f06007e86ede62cb9265d05f3e9ee0eaebb7"
+        },
+        "game/game-x86_64.so": {
+            "size": 1854624,
+            "hash": "9a10667a5de6aede965bb1081e5c02ef3d6f01c77f0b9d40f44219c6316682de"
+        },
+        "game/libgame_shared-x86-server.so": {
+            "size": 20203172,
+            "hash": "9b083496c960f5021d88584d7f139e453ab799330589c50c7269e3a8a4e72128"
+        },
+        "game/libgame_shared-x86.so": {
+            "size": 18662896,
+            "hash": "31ed0a23bb6dd92799ccf94b469e5614d7e465f570e7cc577546cb90f79036b7"
+        },
+        "game/libgame_shared-x86_64-server.so": {
+            "size": 20773048,
+            "hash": "50515f26975da52b101623c5d7cd3d6b896182f9ba49676b8232d02d678ca571"
+        },
+        "game/libgame_shared-x86_64.so": {
+            "size": 19240800,
+            "hash": "f7800c1d35ffcecf458713075d116c4f119235dba76b952212ccd1ce77e05364"
+        },
+        "game/maps/caldavar.s2z": {
+            "size": 1702364,
+            "hash": "2aa385d31dbae6699d3308d1b3646f49cac015b8d6d03ef9a4cc19847067a0a0"
+        },
+        "game/maps/caldavar_old.s2z": {
+            "size": 1806318,
+            "hash": "b5c2b25e14ec652d0b7e5fdfc3ffd8ddc27f639f48bf14936848ec067c76aafa"
+        },
+        "game/maps/caldavar_reborn.s2z": {
+            "size": 1702335,
+            "hash": "808c2af61a11dff61b8c5caf0a703b479b387d6e278a27af7c2efcd67bb8fd2d"
+        },
+        "game/maps/capturetheflag.s2z": {
+            "size": 969435,
+            "hash": "811277ac31e8f3c921f02e2cf858183bd8e470f06de48a3627d14b6b1c298437"
+        },
+        "game/maps/darkwoodvale.s2z": {
+            "size": 529051,
+            "hash": "25bba49b5ec2a3f7894de7556980e027c688e87bc7bb73a710930c7f22b27acc"
+        },
+        "game/maps/devowars.s2z": {
+            "size": 326648,
+            "hash": "6bab5b07437b33d46bfc8aafa9fb4578035067a79246d183b40c85d2cf8393fb"
+        },
+        "game/maps/grimmscrossing.s2z": {
+            "size": 567002,
+            "hash": "e88abbe5eae165f6fa06e2cdf38b334292edc03fa0eed72d0df46ce3cb12ec72"
+        },
+        "game/maps/midwars.s2z": {
+            "size": 1201550,
+            "hash": "194d17e56f22bb745ba43a447ef70f8994b5a9cc493b92988eafaa93ff112a07"
+        },
+        "game/maps/midwars_old.s2z": {
+            "size": 1200031,
+            "hash": "5c0a295d20e25d636dbb833d2b4f7368b4cdb8635dd82f91a130847b8e117327"
+        },
+        "game/maps/midwars_reborn.s2z": {
+            "size": 1265355,
+            "hash": "17cf72c301c0581b07e17af896141a6f43121f81745160ea55dfd53da62fa892"
+        },
+        "game/maps/prophets.s2z": {
+            "size": 468481,
+            "hash": "cbecff28260351d9cdc394080ef8cd7fed9910436e517ae3691a977336e23489"
+        },
+        "game/maps/riftwars.s2z": {
+            "size": 1109841,
+            "hash": "7d92c9e39efe65872bfdc0f789589b0edb1d00c4aec141b0b6cd3cc4096bc2c8"
+        },
+        "game/maps/soccer.s2z": {
+            "size": 837586,
+            "hash": "1949f641556c830cce27df81a82d271f36781a199689378d05bdaa2f3c0d6f67"
+        },
+        "game/maps/spotlight.s2z": {
+            "size": 1411795,
+            "hash": "294f03bc84cfefba582fba8f34320470d969f65803e7f82c3e1fb6c5ec452935"
+        },
+        "game/maps/team_deathmatch.s2z": {
+            "size": 381605,
+            "hash": "cb9982e785723d59f8b311cf1211682207024dc4b73083cfc3fb03d164c7f476"
+        },
+        "game/maps/thegrimmhunt.s2z": {
+            "size": 1119949,
+            "hash": "e71dbc46d03398d60e5ec8c28cd76d8a953fc1a7abb70cc569f2dfb711196460"
+        },
+        "game/maps/tutorial.s2z": {
+            "size": 11935056,
+            "hash": "2b45571dda3b622c6d634f734383190c06d8417652e1204f87e7cf329675ac55"
+        },
+        "game/maps/watchtower.s2z": {
+            "size": 725143,
+            "hash": "e87b604f1c554cce515fabf31dc0cc9827a793c501b2b6cd7252b0e84c73268d"
+        },
+        "game/resources0.s2z": {
+            "size": 380284530,
+            "hash": "4291134f29907efada8b7620a800ee5d5e459105eb31cb6463c7483f69dadedb"
+        },
+        "game/resources1.s2z": {
+            "size": 511602578,
+            "hash": "a1f4b2a53be6db45782d1cc41f3c1fc88a6efffccd4f66cd55746d527b09ffba"
+        },
+        "game/resources2.s2z": {
+            "size": 495577975,
+            "hash": "eee0a51467b7950c35d4d8bcc9c0aa3dfb43b6640d0d35908c4be14243d849bb"
+        },
+        "game/resources3.s2z": {
+            "size": 503458248,
+            "hash": "bc3d3ac04c5c50530216f45df5d8e763b0e8669c211ac8b265aeec16ebe3bbba"
+        },
+        "game/resources4.s2z": {
+            "size": 308132650,
+            "hash": "fd8c35d4cba8b374366304398453d4449753341373b966ef8fac5b97a8ee9752"
+        },
+        "game/shadercache/shadercache.s2z": {
+            "size": 1324848,
+            "hash": "f7070bc926f83c58c7fb6ea29e2d07b71a532aeb4dc871854e1c5f37e578c2b8"
+        },
+        "game/shadercache/shadercache2.s2z": {
+            "size": 1370662,
+            "hash": "c44ba109eab5cb850ab37d08a7fd73ef5cd28ae22c53e921ef1e5c9b9d9b2103"
+        },
+        "game/videos/apex_720.avi": {
+            "size": 7720448,
+            "hash": "e9fc301d91612195d9fe8a0fafe4a8c01e183115b4853eb6b7c8af6d6b0c4fc1"
+        },
+        "game/videos/klout_720.avi": {
+            "size": 1698260,
+            "hash": "00ad06dfa8562e73d2f2d1ea98542043df990d4c886043b7c023cba86239e925"
+        },
+        "game/videos/login_1080.avi": {
+            "size": 6800994,
+            "hash": "272300a5794bd49368d8a3f97ab8aeb9761c5bdaf82facc4052d103e9b701f95"
+        },
+        "game/videos/login_720.avi": {
+            "size": 3872999,
+            "hash": "109e44fa5d662234db496adf51f9946b13de8a61d99459ad05d2eab74ff84d34"
+        },
+        "game/videos/new_hero_720.avi": {
+            "size": 607360,
+            "hash": "28282755eea181318d31e705005bb0ff0c2dd58b9df8223da59779286c505342"
+        },
+        "game/videos/sapphire_720.avi": {
+            "size": 11158063,
+            "hash": "741ed5bba6eb4dca92c8a104f6d70e11d55573335db57a5694ae6181888ef8aa"
+        },
+        "game/videos/warchief_720.avi": {
+            "size": 13825181,
+            "hash": "4132ca1d15a15e660879e57efcc567ba4a91142c781fe0c897c393b87b43b7c3"
+        },
+        "heroeditor/resources0.s2z": {
+            "size": 429,
+            "hash": "bfb1590d6bf0812b6db3d86f665b212de785f938932cc52235e9d5208bba1931"
+        },
+        "hon-x86": {
+            "size": 112608,
+            "hash": "b0424410083bc564dce24ecc79a4322e18e3087a5a3203b96a33018679a55dfb"
+        },
+        "hon-x86-server": {
+            "size": 116716,
+            "hash": "ba48a7fe859f849167757f43e77f8914b5e28fbf8b59fd840464d022cbc446a1"
+        },
+        "hon-x86_64": {
+            "size": 105648,
+            "hash": "62510856da60bb567c3875dbbecd1af48d0876bb8e09cbb0fd29c1c43983371a"
+        },
+        "hon-x86_64-server": {
+            "size": 109752,
+            "hash": "e49d0cc53dd4988c810e7af8fe606b55e66a349a27b5c57635609f5e9cdff2ce"
+        },
+        "hon.sh": {
+            "size": 874,
+            "hash": "292c32b1fbe2c866edf638e3ea06e194bfd0390f256213fe6193999d2fac7f1a"
+        },
+        "hon_update-x86": {
+            "size": 17500,
+            "hash": "2c6aef5bc850586c5572edc842d24b82241717e8c1f2688f62f394444998a8f1"
+        },
+        "hon_update-x86_64": {
+            "size": 21584,
+            "hash": "8890e04da3f8343f8d44f256602e9a897337c7b8fca389eafcd14c05a4e62755"
+        },
+        "honicon_128x128.png": {
+            "size": 36853,
+            "hash": "e3da47847b635dc3c09df75c2da4c7426479383d9e0e486a73dcc8f8c2a4cb5d"
+        },
+        "honicon_16x16.png": {
+            "size": 595,
+            "hash": "1cee2c4367e4a2704d06f5e84ac6c47d43bfe32963732e509af56cb072edffb9"
+        },
+        "honicon_32x32.png": {
+            "size": 2414,
+            "hash": "60ebf23e8d1a9f5b4f30cd60123b6437880ed1eb49ca0f47f28b590e33926c47"
+        },
+        "install_files_client_64.txt": {
+            "size": 1207,
+            "hash": "96897cae205d1afa03f0aa0fe590abaa00d9726133d24337a1c3ad32789b9d59"
+        },
+        "install_ignore_client_64.txt": {
+            "size": 206,
+            "hash": "14544bda4bf97c657db1b8a5052e7e1f8d0883373f85c2f26a73c0b2738e60eb"
+        },
+        "libk2-x86-server.so": {
+            "size": 27287532,
+            "hash": "450651b7ce84685812fcb3b1213500ea83dee9da4161aceae02525fe58e1f44a"
+        },
+        "libk2-x86.so": {
+            "size": 16571912,
+            "hash": "01275f0ff4be92b013d60db4a4a12e1d60f1b92ccd6566bc5f001b89254deeb2"
+        },
+        "libk2-x86_64-server.so": {
+            "size": 25569608,
+            "hash": "fff074c500bbd13109eb475297c3516c3d48e905f639c0457fa10d9a40fea065"
+        },
+        "libk2-x86_64.so": {
+            "size": 15926800,
+            "hash": "edec42953b2ed25cd45aba16d5ba775672119761b547afeda6a7df2e1ce14943"
+        },
+        "libraries.txt": {
+            "size": 7867,
+            "hash": "bef53623fd4ef4c3ba181d2a9956e53a9a4770093c1a301652c52bce0df25105"
+        },
+        "libs-x86/libawesomium-1-7.so.5": {
+            "size": 63159344,
+            "hash": "00c7764c707272ce1bbb17af669a2aa0ac0f5ecb415b4aee1f7a0439b54e129f"
+        },
+        "libs-x86/libawesomium-1.6.5.so.0": {
+            "size": 42974448,
+            "hash": "94441c9d4db750497accc5766d02e9b7efd46f193e384d98366446359ebbd301"
+        },
+        "libs-x86/libbz2.so.1.0": {
+            "size": 66044,
+            "hash": "4144357450be0aeb108091e33b52990c9a82a5a519f1df956d3cb739e8d2dc18"
+        },
+        "libs-x86/libc\u002B\u002B.so.1": {
+            "size": 1710062,
+            "hash": "8e8216618e0b3c4f8688cab7eef661b1af7eb3309deaa347ce7ce8f14bc71084"
+        },
+        "libs-x86/libc\u002B\u002Babi.so.1": {
+            "size": 546980,
+            "hash": "34daf5fed8bdcdd0e92ec08c5f4c20fd760a240ee661db2d4209be2ff99506fb"
+        },
+        "libs-x86/libcurl.so.4": {
+            "size": 2375592,
+            "hash": "cf69663628a7d171211dc4b2ea5f811c9739c64e825a14427e2da8421ce9b322"
+        },
+        "libs-x86/libfmodex.so": {
+            "size": 1532700,
+            "hash": "08dd5e559c8ebb17c5282e449c6256bbc04d1280d4f4adb369565765ffdeb12d"
+        },
+        "libs-x86/libfreetype.so.6": {
+            "size": 554980,
+            "hash": "a22b9d063e10323d978875d7bdb7f25609e51d8db0984fba4346ad16843a559d"
+        },
+        "libs-x86/libgcc_s.so.1": {
+            "size": 86904,
+            "hash": "e87431e621c30a54d347e3da8a78bc5f73205a2c62cd6f34829ff686f28068fd"
+        },
+        "libs-x86/libgcrypt.so.11": {
+            "size": 545196,
+            "hash": "ba9b6d0e957d33439eb2e8ed6999c809e183322dfeba35e87850b469335c04c6"
+        },
+        "libs-x86/libjpeg.so.62": {
+            "size": 161988,
+            "hash": "77b20a3fa82b68c6438e9226309b4682217a839ec7ee22388399f0e41bc35d3f"
+        },
+        "libs-x86/libpng12.so.0": {
+            "size": 146368,
+            "hash": "cd89f8a292c4dd92fcc5bdd3f7f6334a29acc661b5a635262a52e479e5663899"
+        },
+        "libs-x86/libspeex.so.1": {
+            "size": 95080,
+            "hash": "92bea5a3358152e28fd1b222d1cba3ee7a0221ef3322150a219ccb9dfc58f402"
+        },
+        "libs-x86/libspeexdsp.so.1": {
+            "size": 66684,
+            "hash": "5df34a1885a08f8d1ea082ae208ff3389e3f6235f4f75c04169feff7feeadff0"
+        },
+        "libs-x86/libstdc\u002B\u002B.so.6": {
+            "size": 747292,
+            "hash": "6c2e16801ec5a7e2b2f12b81cbbb69c8b9c52adc441112aea9c168162b8f56e9"
+        },
+        "libs-x86/plugins/libffmpegsumo.so": {
+            "size": 1624621,
+            "hash": "46ed3513d8d8bfcac4e565c2f03c10a3806fb7092766cf88eb4dd0f136fb18bc"
+        },
+        "libs-x86/plugins/libflashplayer.so": {
+            "size": 17406436,
+            "hash": "7a0b7d14fdcd82db83e8e80d5089f18ba3bda8844817e155a75578f6e502be30"
+        },
+        "libs-x86_64/libawesomium-1-7.so.5": {
+            "size": 66805824,
+            "hash": "ac3eb5792bfb819faa7b53815d5b9d2de265821f353093ec655b2088b97e257a"
+        },
+        "libs-x86_64/libawesomium-1.6.5.so.0": {
+            "size": 48738168,
+            "hash": "1ff59bfa8eb1803243ed0d4579f8f3339b975845fa4963854b621d5fc611377d"
+        },
+        "libs-x86_64/libbz2.so.1.0": {
+            "size": 66824,
+            "hash": "61aeec3aeee7a7d10f50cf2e86bb4459229ae6fc7c60b4dd72bdeed68d225178"
+        },
+        "libs-x86_64/libc\u002B\u002B.so.1": {
+            "size": 1053416,
+            "hash": "6a46970e66a06244c7e95402eedef325e29cbf5624e45b7d19a160bf85537782"
+        },
+        "libs-x86_64/libc\u002B\u002Babi.so.1": {
+            "size": 364240,
+            "hash": "0b17ffb1f796a0fb355281244fccfe739e3e6b3792646d5826d1714a6358caf3"
+        },
+        "libs-x86_64/libcurl.so.4": {
+            "size": 2615640,
+            "hash": "6c0c11039e3bc063e116699134af4dee1881e29099b0c09f2a562a81a67a54c7"
+        },
+        "libs-x86_64/libfmodex64.so": {
+            "size": 1491584,
+            "hash": "6d26d93593f884c8a437f59199b0578828b27b204fb2bf6252dbcdfde356fa1b"
+        },
+        "libs-x86_64/libfreetype.so.6": {
+            "size": 620680,
+            "hash": "9a7b264ccfc091835d749880e7ab354f01edd8bfd9d9c27748c67d15a0225b8f"
+        },
+        "libs-x86_64/libgcc_s.so.1": {
+            "size": 394243,
+            "hash": "4cc3f66e2363d1b7d8ae86a34538762de60fb0ac72be5335ecc9bf9888c68560"
+        },
+        "libs-x86_64/libgcrypt.so.11": {
+            "size": 520152,
+            "hash": "238a9e12da820ae564cf64ff9bdd7b592bd1fc9d22e5d13027a71e430fe2021b"
+        },
+        "libs-x86_64/libjpeg.so.62": {
+            "size": 186752,
+            "hash": "80708621838f44520ffe9da146826aa01f8613b822e3cb28919bc5632e321b71"
+        },
+        "libs-x86_64/libpng12.so.0": {
+            "size": 156088,
+            "hash": "b3e2583bd47483ac24bab3a0148abb775beab3ef4ea9dff64a1fc1fa16f5fb7b"
+        },
+        "libs-x86_64/libspeex.so.1": {
+            "size": 129728,
+            "hash": "9fc7b97471a13c27e0f62f6df54759404e634751a741ae27fe6ba12bf948a7f0"
+        },
+        "libs-x86_64/libspeexdsp.so.1": {
+            "size": 91048,
+            "hash": "914e494e409d66081e6fdee60de0caea600e702259977f13e1c39865c2823616"
+        },
+        "libs-x86_64/libstdc\u002B\u002B.so.6": {
+            "size": 4790256,
+            "hash": "5eef4856674b73e1b23edb1616fbfd80632f8e9905e6ba086f11eed39331f73b"
+        },
+        "libs-x86_64/plugins/libffmpegsumo.so": {
+            "size": 1581705,
+            "hash": "4a20f7731f26f33da55d09318d07f9786420ccfb43f19fb660599658860ac500"
+        },
+        "libs-x86_64/plugins/libflashplayer.so": {
+            "size": 19216752,
+            "hash": "1123cb5991b05b6b6819e220a27899b2382996d2af8786d3562c92f8be92767f"
+        },
+        "license.txt": {
+            "size": 0,
+            "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "linux_server/hcon": {
+            "size": 39928,
+            "hash": "2602f35773d73b225f0366f8f7d676555e1d00868db4bfe6234ffe4c77044096"
+        },
+        "linux_server/hcon.1": {
+            "size": 876,
+            "hash": "a320a34a7af139368af4bc35ccd8769fb706a97757df6a614954366ebf59931a"
+        },
+        "linux_server/hconhelper": {
+            "size": 2433,
+            "hash": "be1b63eb348b2f03f0fea2f37e2bd11bfa79387b4eb88e05893245f9662b3f2c"
+        },
+        "linux_server/honserver-first-configure": {
+            "size": 1735,
+            "hash": "9b5f034d3133bfabfcd9938fa75f18a0713ffd19548f08b275fcb008fa150ede"
+        },
+        "linux_server/honserver.service": {
+            "size": 388,
+            "hash": "4652ec8b35eb7ee522309d79c968ca2f71f3f7a1493c136f35c2435024203d1f"
+        },
+        "noaudio.wav": {
+            "size": 42270,
+            "hash": "13abad04f567b350bf478fa15b2e365b277e7f3975ffc26de37fe1c98e91923f"
+        },
+        "pci.ids": {
+            "size": 758944,
+            "hash": "947339571fd7daca69871f2659000156028dcfbb51aaa6122ff339c35ece6a34"
+        },
+        "privacy_en.txt": {
+            "size": 36599,
+            "hash": "436c4f5fca7447c36ccf177e4bafa5293dfe030f491bf07d08bde9f7de14018a"
+        },
+        "s2exporter64-max2013.dlu": {
+            "size": 356352,
+            "hash": "c4969ab92cb0813b67ddf7ac4102d9aa50093a794d920a2507235da1a3daf207"
+        },
+        "tos.txt": {
+            "size": 25195,
+            "hash": "600a8b20f1f7b431520ee57d77e4a6396df90d8a13b74a7c39e340ef19ea3ce6"
+        },
+        "tos_br.txt": {
+            "size": 26946,
+            "hash": "32eeeb8cf9559866244339129617d6f534ca36974cc571f3b899a9e0c4df1e98"
+        },
+        "tos_ru.txt": {
+            "size": 56681,
+            "hash": "94204b7dc4ea2c4abb0ed8ef7606e815813448980230d5b21258dc691e28dbce"
+        }
+    }
+}

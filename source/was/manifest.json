@@ -1,0 +1,242 @@
+{
+    "version": "4.10.1.1",
+    "hashAlgorithm": "SHA-256",
+    "excludeFromSource": [
+        "manifest.json"
+    ],
+    "excludeFromTarget": [],
+    "files": {
+        "base/resources0.s2z": {
+            "size": 43024,
+            "hash": "e3f7364a77f4f0e021cdd2d1d19741ab665db8f294784328defad0d73f7fe7db"
+        },
+        "ca-bundle.crt": {
+            "size": 216450,
+            "hash": "8dac2e7a5a77dfb35f91a828ba1e16ee0c7deb2c2cc1887b1a5db348dd710fc7"
+        },
+        "change_log.txt": {
+            "size": 17423,
+            "hash": "ad90b30170b3d91ba752d9ba3b22993c26c9f8bff5094044a189ee5b598f270c"
+        },
+        "change_log_color.txt": {
+            "size": 19009,
+            "hash": "9a146ddd5513c8cccc93514d06390ae20f28b7ed70604bae1a4e0843eaefcf32"
+        },
+        "change_log_color_history.txt": {
+            "size": 3594035,
+            "hash": "4f7ef9dc7a22c76739f1fa0f062b444c8d84289cb580ebcb4b1be72f1dc419c1"
+        },
+        "change_log_header.txt": {
+            "size": 203,
+            "hash": "6e48f486ad5d3c503b360373a1406b646c45935b873ac937f5bf53a78ad06f7e"
+        },
+        "change_log_header_garena.txt": {
+            "size": 179,
+            "hash": "04f537a4fc3e16d404bcdc43b64c5ccc95dd903321552692fc0bd6e8df609968"
+        },
+        "change_log_history.txt": {
+            "size": 3427003,
+            "hash": "16f3092e72e2d7825027dd3627bb84fe55449107901b903e8e37f8d1a2e477c6"
+        },
+        "chrome_elf.dll": {
+            "size": 1029120,
+            "hash": "2afd644e29d1ba0939bb8fabfb34dea8db3849a019ab00a5659da6e339f7785c"
+        },
+        "compat_ignore.txt": {
+            "size": 118,
+            "hash": "b3dfb58f10442f6f298ca4b464b1c10ca8116737533c277504444305092ab99b"
+        },
+        "editor/resources0.s2z": {
+            "size": 25016,
+            "hash": "b5cdf5aded3e8efab469abb4502c1316e74dab3e6ff4c1411b980560eca1aabb"
+        },
+        "f2p_letter.txt": {
+            "size": 1436,
+            "hash": "637b31a7fc560ce9b070efef3febbd449194e24ef9c1bebc9b3264abcf3d5989"
+        },
+        "fmodex64.dll": {
+            "size": 1503232,
+            "hash": "12d4b280bdc6f6df87f620a655fd0c91771c2bfa572cb7ba0e3059a4dabc99b2"
+        },
+        "game/cgame_x64.dll": {
+            "size": 2974208,
+            "hash": "138eaaf57c92b8f865e50d3a668b5c00e339b868adb37825954b652b74b53345"
+        },
+        "game/game_shared_x64.dll": {
+            "size": 8051200,
+            "hash": "f5c67c067ddbcb228f3945fdf1fba6586961aa9267b929dd482dc250bf245fb1"
+        },
+        "game/game_x64.dll": {
+            "size": 1206272,
+            "hash": "86b4937e35fd5e100741fdfcabe50f2b9701286df5fa85d9059b40405aa91ae2"
+        },
+        "game/maps/caldavar.s2z": {
+            "size": 1702364,
+            "hash": "2aa385d31dbae6699d3308d1b3646f49cac015b8d6d03ef9a4cc19847067a0a0"
+        },
+        "game/maps/caldavar_old.s2z": {
+            "size": 1806318,
+            "hash": "b5c2b25e14ec652d0b7e5fdfc3ffd8ddc27f639f48bf14936848ec067c76aafa"
+        },
+        "game/maps/caldavar_reborn.s2z": {
+            "size": 1702335,
+            "hash": "808c2af61a11dff61b8c5caf0a703b479b387d6e278a27af7c2efcd67bb8fd2d"
+        },
+        "game/maps/capturetheflag.s2z": {
+            "size": 969435,
+            "hash": "811277ac31e8f3c921f02e2cf858183bd8e470f06de48a3627d14b6b1c298437"
+        },
+        "game/maps/darkwoodvale.s2z": {
+            "size": 529051,
+            "hash": "25bba49b5ec2a3f7894de7556980e027c688e87bc7bb73a710930c7f22b27acc"
+        },
+        "game/maps/devowars.s2z": {
+            "size": 326648,
+            "hash": "6bab5b07437b33d46bfc8aafa9fb4578035067a79246d183b40c85d2cf8393fb"
+        },
+        "game/maps/grimmscrossing.s2z": {
+            "size": 567002,
+            "hash": "e88abbe5eae165f6fa06e2cdf38b334292edc03fa0eed72d0df46ce3cb12ec72"
+        },
+        "game/maps/midwars.s2z": {
+            "size": 1201550,
+            "hash": "194d17e56f22bb745ba43a447ef70f8994b5a9cc493b92988eafaa93ff112a07"
+        },
+        "game/maps/midwars_old.s2z": {
+            "size": 1200031,
+            "hash": "5c0a295d20e25d636dbb833d2b4f7368b4cdb8635dd82f91a130847b8e117327"
+        },
+        "game/maps/midwars_reborn.s2z": {
+            "size": 1265355,
+            "hash": "17cf72c301c0581b07e17af896141a6f43121f81745160ea55dfd53da62fa892"
+        },
+        "game/maps/prophets.s2z": {
+            "size": 468481,
+            "hash": "cbecff28260351d9cdc394080ef8cd7fed9910436e517ae3691a977336e23489"
+        },
+        "game/maps/riftwars.s2z": {
+            "size": 1109841,
+            "hash": "7d92c9e39efe65872bfdc0f789589b0edb1d00c4aec141b0b6cd3cc4096bc2c8"
+        },
+        "game/maps/soccer.s2z": {
+            "size": 837586,
+            "hash": "1949f641556c830cce27df81a82d271f36781a199689378d05bdaa2f3c0d6f67"
+        },
+        "game/maps/spotlight.s2z": {
+            "size": 1411795,
+            "hash": "294f03bc84cfefba582fba8f34320470d969f65803e7f82c3e1fb6c5ec452935"
+        },
+        "game/maps/team_deathmatch.s2z": {
+            "size": 381605,
+            "hash": "cb9982e785723d59f8b311cf1211682207024dc4b73083cfc3fb03d164c7f476"
+        },
+        "game/maps/thegrimmhunt.s2z": {
+            "size": 1119949,
+            "hash": "e71dbc46d03398d60e5ec8c28cd76d8a953fc1a7abb70cc569f2dfb711196460"
+        },
+        "game/maps/tutorial.s2z": {
+            "size": 11935056,
+            "hash": "2b45571dda3b622c6d634f734383190c06d8417652e1204f87e7cf329675ac55"
+        },
+        "game/maps/watchtower.s2z": {
+            "size": 725143,
+            "hash": "e87b604f1c554cce515fabf31dc0cc9827a793c501b2b6cd7252b0e84c73268d"
+        },
+        "game/resources0.s2z": {
+            "size": 380284530,
+            "hash": "4291134f29907efada8b7620a800ee5d5e459105eb31cb6463c7483f69dadedb"
+        },
+        "game/resources1.s2z": {
+            "size": 511602578,
+            "hash": "a1f4b2a53be6db45782d1cc41f3c1fc88a6efffccd4f66cd55746d527b09ffba"
+        },
+        "game/resources2.s2z": {
+            "size": 495577975,
+            "hash": "eee0a51467b7950c35d4d8bcc9c0aa3dfb43b6640d0d35908c4be14243d849bb"
+        },
+        "game/resources3.s2z": {
+            "size": 503458248,
+            "hash": "bc3d3ac04c5c50530216f45df5d8e763b0e8669c211ac8b265aeec16ebe3bbba"
+        },
+        "game/resources4.s2z": {
+            "size": 308132650,
+            "hash": "fd8c35d4cba8b374366304398453d4449753341373b966ef8fac5b97a8ee9752"
+        },
+        "hon_crash_uploader_x64.exe": {
+            "size": 81920,
+            "hash": "0cf35f41a562a08c646b972eab5f7d0178230fd81a19f00c336682b940db1ea4"
+        },
+        "hon_update_x64.exe": {
+            "size": 97520,
+            "hash": "17fc8ccc7a1ba916925ee8cd7f4f2fe2a9104a7323302b65e870967e6ce119f6"
+        },
+        "hon_x64.exe": {
+            "size": 199168,
+            "hash": "bb18a28ff4a05fd3892396a16dd65dd231d1f576a4f19c8a4b08133bc8bf3724"
+        },
+        "k2_x64.dll": {
+            "size": 19467264,
+            "hash": "f00b7973d26e132ae6e2d45a9597643ff9d726309e55536277547b43a10c0c3a"
+        },
+        "libcrypto-1_1-x64.dll": {
+            "size": 3386880,
+            "hash": "f7a5f80b147505db82c1334dc9c7adf2c3d01871c8761ec194ce66058c394021"
+        },
+        "libcurl_x64.dll": {
+            "size": 425984,
+            "hash": "4e4665ec5e99310265842a96993f80e4c02dfefc5636fa17d202e593bacf7217"
+        },
+        "libpng16_x64.dll": {
+            "size": 233472,
+            "hash": "e35dc6e0392dd4fdaab355c99a587a982fc599a716f92e7479354170b6e47a37"
+        },
+        "libraries64.txt": {
+            "size": 8223,
+            "hash": "f32435fa79f58f248316697c8e73c43bfe6889c14a0b0a80a4b07f3d441b70bd"
+        },
+        "libssl-1_1-x64.dll": {
+            "size": 679424,
+            "hash": "f50f7d8f2308eb8be4b40126631e8724aecad7540a968d8c6131bb32363a0a2f"
+        },
+        "libwinpthread-1.dll": {
+            "size": 55296,
+            "hash": "cfb7b90a8eda72c55ea5554ff2064d0ed04e015402cff372d4dfd8d5a56b983d"
+        },
+        "license.txt": {
+            "size": 0,
+            "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "noaudio.wav": {
+            "size": 42270,
+            "hash": "13abad04f567b350bf478fa15b2e365b277e7f3975ffc26de37fe1c98e91923f"
+        },
+        "privacy_en.txt": {
+            "size": 36833,
+            "hash": "8ff6fbbc38cf746b26996ee0c934b180c541165ba19f8c4f4fd751820bdec042"
+        },
+        "proxy.exe": {
+            "size": 299520,
+            "hash": "32d80e29dc7718919857209383376909b7fec8b38d51e483195313b1e6b2362e"
+        },
+        "proxymanager.exe": {
+            "size": 5104413,
+            "hash": "4f22e22eda8d528c5e92dee2835b64ff6ef31659d1de8ad51d6723c1e9d80f66"
+        },
+        "tos.txt": {
+            "size": 25274,
+            "hash": "95229f4276b434bcb045b59feca989a97162a5e950d27fdda5a0ae736e051c3f"
+        },
+        "tos_br.txt": {
+            "size": 27029,
+            "hash": "ad72da968978d8c10126abf2f3907fdac1f11273cc011479b0590049b0f1bba3"
+        },
+        "tos_ru.txt": {
+            "size": 56763,
+            "hash": "61c510290505196036d878aed40ac83a2bd6dc8f160748d5b41aa1b6c2b5e896"
+        },
+        "zlibwapi_x64.dll": {
+            "size": 114688,
+            "hash": "ba0209a937a561039dd0ef9b403f03f1d5ab02395d330c4cf9f6b0bf89f0dd3c"
+        }
+    }
+}

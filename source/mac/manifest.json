@@ -1,0 +1,398 @@
+{
+    "version": "4.10.1.1",
+    "hashAlgorithm": "SHA-256",
+    "excludeFromSource": [
+        "manifest.json"
+    ],
+    "excludeFromTarget": [],
+    "files": {
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Awesomium": {
+            "size": 41143868,
+            "hash": "71632e0f74fa1daf025c19da2c65042b478c49579885965fc9a94725b3a6cd7b"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/Info.plist": {
+            "size": 386,
+            "hash": "1809b023334d5d85023a7329d8b41d4074c2157c9557e64fd5790b50179dd79e"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/aliasCursor.png": {
+            "size": 752,
+            "hash": "9749f9ddd57f380fab49c187e80160c444f32b670929ff9e02af0146615b1e89"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/cellCursor.png": {
+            "size": 183,
+            "hash": "d973f9e1dd5bcd47aac8614d24f8979cc05caef5cb5d54f1da0bf92b58ebcdb1"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/contextMenuCursor.png": {
+            "size": 523,
+            "hash": "87a5c733cdd0733d4abe3900de313424cd300b643a1d7a53dc96e36380173c79"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/copyCursor.png": {
+            "size": 1652,
+            "hash": "6abba47e485d5681de3df619965afe1c30948b574f30f152a3d0c078f062196e"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/eastResizeCursor.png": {
+            "size": 123,
+            "hash": "f798869d45701df3c44b07d27165f016ca9891447945aaf336578942fa899436"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/eastWestResizeCursor.png": {
+            "size": 126,
+            "hash": "86d60c1c2787f9eaa6d6741ad4f9be2c6b3ffc3ecebe0a924c1c940ab01e1ae0"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/helpCursor.png": {
+            "size": 239,
+            "hash": "f3ae92c21c9205feb7fc4241985fc2b715a57865e67fac8ca311d37071ae691c"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/linkCursor.png": {
+            "size": 341,
+            "hash": "85a1fdb49f6f616a2919e3cb5fa82ef9c322d02f2a226a0de6f68e80abd6d803"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/missingImage.png": {
+            "size": 411,
+            "hash": "1c94b11214194f82e9a3425c63dd51f6bfdab1ef0830e875595bd533b3b7f0c6"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/moveCursor.png": {
+            "size": 175,
+            "hash": "22c57dc7c8703e083c2f11183690b4de9e61a056d2d25aee41d44a0de70e6fbb"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/noDropCursor.png": {
+            "size": 1455,
+            "hash": "d219aa84b166551343b0d381dabbbc9bf10e787d33ac899fff3ce3e1deb21979"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/noneCursor.png": {
+            "size": 90,
+            "hash": "7af2bc1fef145987c45c6987b87d298ce84afc0037b1f223235dfb4cac622218"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/northEastResizeCursor.png": {
+            "size": 209,
+            "hash": "925677a3279e35d7ed567036a0499f17fd7183bb2edd2c27a3884829b451fd97"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/northEastSouthWestResizeCursor.png": {
+            "size": 212,
+            "hash": "c30dd217e99d07ce6d25320690827101c4c833593eb3a485cc534d40974ef3f2"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/northResizeCursor.png": {
+            "size": 125,
+            "hash": "23b6972781a28ca70fe7be7500056fc76c0b8ec8f87c45c33877c7461c0ceee1"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/northSouthResizeCursor.png": {
+            "size": 144,
+            "hash": "24ca63c30c2d16e50e1712114d5d3ae37a80067a419ee53fb0806a583ecd9db8"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/northWestResizeCursor.png": {
+            "size": 174,
+            "hash": "d81e4d0ef0a2daf04b3af6d4e9fabcd162c6966756a73ee11ccd70806b38d13e"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/northWestSouthEastResizeCursor.png": {
+            "size": 193,
+            "hash": "c89e8b19528ea2bbbcc31897d603f6135eb671ef483723fe9c5d067c34382d46"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/progressCursor.png": {
+            "size": 1791,
+            "hash": "70335a0864d6f930334af96b33169f9d9492a2f3201f45d4f3c7b2994c9e2a8a"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/southEastResizeCursor.png": {
+            "size": 166,
+            "hash": "6415cd11e5684e6945425e5e6b66a0a31b45ef14587eebcbe7d9718644e87a2a"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/southResizeCursor.png": {
+            "size": 128,
+            "hash": "e4bcfaf09000d4f43f854b3f2364450fcce71de7d78db4e92be8da9651879d7f"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/southWestResizeCursor.png": {
+            "size": 177,
+            "hash": "1cb7df68488c9e6ccd8011a767065e8576f19c6947fe085cff3004bccd1b82e7"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/verticalTextCursor.png": {
+            "size": 120,
+            "hash": "d8cbbaab095760dfffb69db4f04e0ce47b71ec3a1c9907f2639bceb6e8c03241"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/waitCursor.png": {
+            "size": 125,
+            "hash": "552d0286ae805b24e4d36391cb357717bcc789bf3d1adb1f3d1977208244555d"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/westResizeCursor.png": {
+            "size": 122,
+            "hash": "2010d14ca2950915ddb3e517a684016dd6eca06060c9095e23e6bab040d60a97"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/zoomInCursor.png": {
+            "size": 199,
+            "hash": "7bed232d761eab5c0a8c5b108b09e0c4da41944982075d92cbb028bbdcb198fb"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/Resources/zoomOutCursor.png": {
+            "size": 182,
+            "hash": "1fd163ec750bb79a26a317370a6abb33d5754fb00e3d68bb2b063a3c234200ff"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/awesomium_process": {
+            "size": 8708,
+            "hash": "d95850d5414b0edb405f4b049cfee4d26a23230481ee455f4ed1a4f7092c79ad"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/ffmpegsumo.so": {
+            "size": 1699584,
+            "hash": "cabf29563809537d2636a2914afc392a5b4016a57acd004e53414d2f6584344c"
+        },
+        "Contents/Frameworks/Awesomium.framework/Versions/A/libplugin_carbon_helper.dylib": {
+            "size": 12420,
+            "hash": "3a4b15af1ac4abffdccf65bd0669cdb16e7200d5911a33b3abb3c7e26b7aaa33"
+        },
+        "Contents/Frameworks/universal64/libcrypto-universal.dylib": {
+            "size": 5001472,
+            "hash": "9669b53b87f5b72b4dfba674bb7a9087a210aa08e7997030383f6fd290e99b98"
+        },
+        "Contents/Frameworks/universal64/libcurl-universal.dylib": {
+            "size": 1195056,
+            "hash": "ccb5f0abcfac722ae6f7ffd07f86119a149a351583a3b3de63e9c798391f7400"
+        },
+        "Contents/Frameworks/universal64/libfmod-universal.dylib": {
+            "size": 2766656,
+            "hash": "eb9122c6c17339fa3867bf2e1f1e6e1762760b67f50f1bcfd34cd3d6f6ab7a2c"
+        },
+        "Contents/Frameworks/universal64/libfmodL-universal.dylib": {
+            "size": 3080640,
+            "hash": "a6bc66932195e06bfbad09b0ee57ebb6e2a4bf3d71bcb3a02ccc7e0e96c38e6a"
+        },
+        "Contents/Frameworks/universal64/libfreetype-universal.dylib": {
+            "size": 1358928,
+            "hash": "05207055f4de6e413ce1890eca900205d7ec27f7cf9e668d8dba3c79b0393120"
+        },
+        "Contents/Frameworks/universal64/libgif-universal.dylib": {
+            "size": 210416,
+            "hash": "4fe8839819fc18ca725296302eaab1555b0efb64e74635663b6474eb9fe8e536"
+        },
+        "Contents/Frameworks/universal64/libjpeg-universal.dylib": {
+            "size": 697296,
+            "hash": "6a99e8b9c5d8df8eae6f079699e7862081c408130a2787f514c28b46c0b15a50"
+        },
+        "Contents/Frameworks/universal64/libpng15-universal.dylib": {
+            "size": 537648,
+            "hash": "82515dfe4969675424d3f0cf0ac21431867bc2f7bb2b14f7ab19a714202cd5fb"
+        },
+        "Contents/Frameworks/universal64/libspeex-universal.dylib": {
+            "size": 357264,
+            "hash": "934d3d92ccbaddfef64bab58e6746907b10f594af71338bbaf8b69d397282434"
+        },
+        "Contents/Frameworks/universal64/libspeexdsp-universal.dylib": {
+            "size": 282288,
+            "hash": "e522b0720ab9f164966449651ad1de86536c2706c8451b8cf9e3a7a865af4162"
+        },
+        "Contents/Frameworks/universal64/libssl-universal.dylib": {
+            "size": 1181152,
+            "hash": "34b14c3b4eb8c401ea770dc7764a0187e2de8a05c67b4255a40d34c93a5a49cd"
+        },
+        "Contents/Frameworks/universal64/libxml2-universal.dylib": {
+            "size": 3751008,
+            "hash": "13abfc403b7539a1ec0727f937e60f61a2e84b3cdf96cb1d972fd651e06e8f6b"
+        },
+        "Contents/Frameworks/universal64/libz-universal.dylib": {
+            "size": 371616,
+            "hash": "31c558123feb03ac3f4387b85bf95ff6c88ede15cfdb78376c26914b05868525"
+        },
+        "Contents/Info.plist": {
+            "size": 1489,
+            "hash": "fe06bbab9fdf680e45f9a627154c6f31741486c935c4ba77f4c926656828e240"
+        },
+        "Contents/Resources/honicon.icns": {
+            "size": 407786,
+            "hash": "f56dd590d7b83f5891ba0c578ec89298a3135060b8942c94a353230182492f91"
+        },
+        "Contents/Resources/honicon_x64.icns": {
+            "size": 285045,
+            "hash": "af415b2ccd834147b43b78114d05fc65535dac0126785e4fdf4e5a17d615bf6e"
+        },
+        "HoN64": {
+            "size": 709920,
+            "hash": "0a329cab01248c6c17ed6b48949d367e39c516639ade1b5c08b187a1212e74d4"
+        },
+        "base/resources0.s2z": {
+            "size": 1599341,
+            "hash": "4fc70a2c0eb762a7b35320ddadce6db13c2467184527f98529edbb1cfc952154"
+        },
+        "ca-bundle.crt": {
+            "size": 213139,
+            "hash": "3f06deb3fe142a3e281bde426b2c9c6ff4aba1baf6d3f31ed74dafea153a65a8"
+        },
+        "change_log.txt": {
+            "size": 16969,
+            "hash": "4c5c8e88dc8b7958b781fceab1ec51e27f7621de50b9d63fa68d7dee45589542"
+        },
+        "change_log_color.txt": {
+            "size": 18555,
+            "hash": "249ccfe0c3f4c9daf1c0544f95d44c48ba08a5e91141980612560afd57754e94"
+        },
+        "change_log_color_history.txt": {
+            "size": 3521315,
+            "hash": "ce047b199100cc53e36623d9052cc001fe8606d3f1ee17e78b8d0ac2746aabc4"
+        },
+        "change_log_header.txt": {
+            "size": 196,
+            "hash": "7e19433819f5ab0ab6648bbe6311867cbc1555962cc663ac76b4d478a4e43d9f"
+        },
+        "change_log_history.txt": {
+            "size": 3346199,
+            "hash": "06af2d6608ace2998f7af52bbe999fcd8ed6363ae5611e2fafe3940f96061126"
+        },
+        "compat_ignore.txt": {
+            "size": 106,
+            "hash": "cd04820dd45a0cd98cebbcf3bb8b015bb1f992dadfc75aacfc4ef390139a9cb2"
+        },
+        "editor/resources0.s2z": {
+            "size": 25001,
+            "hash": "d71d34c629280dd11d9c1f0ae18df10a82c20e38af8c348dc5d1257a50dba1a5"
+        },
+        "f2p_letter.txt": {
+            "size": 1432,
+            "hash": "7f3a9f7f9b8bfeffe0e2ccf46ad200fbda670ec33bb550f827dcf81bd5970e91"
+        },
+        "game/cgame.dylib": {
+            "size": 13553136,
+            "hash": "3d3489aff37832c13cefd7e979173ff3960d020a908eacfa053f2dbfcc90696a"
+        },
+        "game/game.dylib": {
+            "size": 4537200,
+            "hash": "7053ef8ef2a49a444aa4ba46b47dee27ef5d51736bde7855a6e666270c68787f"
+        },
+        "game/libgame_shared.dylib": {
+            "size": 54253968,
+            "hash": "a46c6b0200e250c5ff52757fd9569a6a220357822a65fb3bff9bc0588d71c29c"
+        },
+        "game/maps/caldavar.s2z": {
+            "size": 1702364,
+            "hash": "2aa385d31dbae6699d3308d1b3646f49cac015b8d6d03ef9a4cc19847067a0a0"
+        },
+        "game/maps/caldavar_old.s2z": {
+            "size": 1806318,
+            "hash": "b5c2b25e14ec652d0b7e5fdfc3ffd8ddc27f639f48bf14936848ec067c76aafa"
+        },
+        "game/maps/caldavar_reborn.s2z": {
+            "size": 1702335,
+            "hash": "808c2af61a11dff61b8c5caf0a703b479b387d6e278a27af7c2efcd67bb8fd2d"
+        },
+        "game/maps/capturetheflag.s2z": {
+            "size": 969435,
+            "hash": "811277ac31e8f3c921f02e2cf858183bd8e470f06de48a3627d14b6b1c298437"
+        },
+        "game/maps/darkwoodvale.s2z": {
+            "size": 529051,
+            "hash": "25bba49b5ec2a3f7894de7556980e027c688e87bc7bb73a710930c7f22b27acc"
+        },
+        "game/maps/devowars.s2z": {
+            "size": 326648,
+            "hash": "6bab5b07437b33d46bfc8aafa9fb4578035067a79246d183b40c85d2cf8393fb"
+        },
+        "game/maps/grimmscrossing.s2z": {
+            "size": 567002,
+            "hash": "e88abbe5eae165f6fa06e2cdf38b334292edc03fa0eed72d0df46ce3cb12ec72"
+        },
+        "game/maps/midwars.s2z": {
+            "size": 1201550,
+            "hash": "194d17e56f22bb745ba43a447ef70f8994b5a9cc493b92988eafaa93ff112a07"
+        },
+        "game/maps/midwars_old.s2z": {
+            "size": 1200031,
+            "hash": "5c0a295d20e25d636dbb833d2b4f7368b4cdb8635dd82f91a130847b8e117327"
+        },
+        "game/maps/midwars_reborn.s2z": {
+            "size": 1265355,
+            "hash": "17cf72c301c0581b07e17af896141a6f43121f81745160ea55dfd53da62fa892"
+        },
+        "game/maps/prophets.s2z": {
+            "size": 468481,
+            "hash": "cbecff28260351d9cdc394080ef8cd7fed9910436e517ae3691a977336e23489"
+        },
+        "game/maps/riftwars.s2z": {
+            "size": 1109841,
+            "hash": "7d92c9e39efe65872bfdc0f789589b0edb1d00c4aec141b0b6cd3cc4096bc2c8"
+        },
+        "game/maps/soccer.s2z": {
+            "size": 837586,
+            "hash": "1949f641556c830cce27df81a82d271f36781a199689378d05bdaa2f3c0d6f67"
+        },
+        "game/maps/spotlight.s2z": {
+            "size": 1411795,
+            "hash": "294f03bc84cfefba582fba8f34320470d969f65803e7f82c3e1fb6c5ec452935"
+        },
+        "game/maps/team_deathmatch.s2z": {
+            "size": 381605,
+            "hash": "cb9982e785723d59f8b311cf1211682207024dc4b73083cfc3fb03d164c7f476"
+        },
+        "game/maps/thegrimmhunt.s2z": {
+            "size": 1119949,
+            "hash": "e71dbc46d03398d60e5ec8c28cd76d8a953fc1a7abb70cc569f2dfb711196460"
+        },
+        "game/maps/tutorial.s2z": {
+            "size": 11935056,
+            "hash": "2b45571dda3b622c6d634f734383190c06d8417652e1204f87e7cf329675ac55"
+        },
+        "game/maps/watchtower.s2z": {
+            "size": 725143,
+            "hash": "e87b604f1c554cce515fabf31dc0cc9827a793c501b2b6cd7252b0e84c73268d"
+        },
+        "game/resources0.s2z": {
+            "size": 869106077,
+            "hash": "883b689e50aea5d088d941e81d4051382a372b27adb44f814e4cdf01162e6d93"
+        },
+        "game/resources1.s2z": {
+            "size": 967232658,
+            "hash": "64bcdf00baa4bf5b4ce8668df52f9e02f610a36e73b226d94a82384582fbd3b7"
+        },
+        "game/resources2.s2z": {
+            "size": 853154160,
+            "hash": "146548aefdc0176c1ceb91d1ab04a939fa805a321e69d4022de06b95e789c91d"
+        },
+        "game/resources3.s2z": {
+            "size": 957757113,
+            "hash": "16b1f28558b85fdba52b3cbbf46effb1247368e52b7b03390996ac1d0e034419"
+        },
+        "game/resources4.s2z": {
+            "size": 540029929,
+            "hash": "2c010811ab462317611f6705244a4639ef161bc77fbc426e33288775444830b9"
+        },
+        "game/shadercache/shadercache.s2z": {
+            "size": 1324848,
+            "hash": "45ecf6c1905e166c52899db6077c59084a531a2639dd9f3a000b318389b9476b"
+        },
+        "game/shadercache/shadercache2.s2z": {
+            "size": 802105,
+            "hash": "d28d773bc5a01f49a6d51d6260444e008bb4f28d7d88e4de1cd68d28dc1bc4ad"
+        },
+        "game/textures.s2z": {
+            "size": 2036678403,
+            "hash": "99f907dc8421e70c7e4e1c8e04f9a6c3997eaa8066b7920e5efa78798b8bc06f"
+        },
+        "libk2.dylib": {
+            "size": 58414320,
+            "hash": "fa72e8fb74477144488197cf373d47bbd9d725c28bfc878ad8a1f0949b0f62c4"
+        },
+        "libraries.txt": {
+            "size": 7867,
+            "hash": "bef53623fd4ef4c3ba181d2a9956e53a9a4770093c1a301652c52bce0df25105"
+        },
+        "license.txt": {
+            "size": 0,
+            "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "noaudio.wav": {
+            "size": 42270,
+            "hash": "13abad04f567b350bf478fa15b2e365b277e7f3975ffc26de37fe1c98e91923f"
+        },
+        "privacy_en.txt": {
+            "size": 36599,
+            "hash": "436c4f5fca7447c36ccf177e4bafa5293dfe030f491bf07d08bde9f7de14018a"
+        },
+        "tos.txt": {
+            "size": 25195,
+            "hash": "600a8b20f1f7b431520ee57d77e4a6396df90d8a13b74a7c39e340ef19ea3ce6"
+        },
+        "tos_br.txt": {
+            "size": 26946,
+            "hash": "32eeeb8cf9559866244339129617d6f534ca36974cc571f3b899a9e0c4df1e98"
+        },
+        "tos_ru.txt": {
+            "size": 56681,
+            "hash": "94204b7dc4ea2c4abb0ed8ef7606e815813448980230d5b21258dc691e28dbce"
+        },
+        "vid_gl2.dylib": {
+            "size": 5656752,
+            "hash": "7ec5b2feedd5dffd1ae525503193e69ccad2ef2d0a0f42e32dbe83a3258e8c0f"
+        }
+    }
+}
