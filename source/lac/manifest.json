@@ -5,6 +5,7 @@
         "manifest.json"
     ],
     "excludeFromTarget": [
+        "KONGOR/configuration/autoexec.cfg",
         "WILLOWMAKER",
         "WILLOWMAKER.log",
         "libHarfBuzzSharp.so",
